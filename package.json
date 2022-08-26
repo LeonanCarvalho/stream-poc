@@ -1,0 +1,20 @@
+{
+  "name": "csvpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "csv:generate": "node csv.js ",
+    "csv:read": "node readcsv.js ",
+    "xlsx": "node xlsx.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@airbnb/node-memwatch": "^2.0.0",
+    "csv-parse": "^5.3.0",
+    "csv-stringify": "^6.2.0",
+    "exceljs": "^4.3.0",
+    "util": "^0.12.4"
+  }
+}
